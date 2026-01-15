@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { useConnection, useWallet } from '@solana/wallet-adapter-react'
 import * as anchor from '@coral-xyz/anchor'
 import { Program } from '@coral-xyz/anchor'
-import idl from '../../../target/idl/solana_quadratic_voting_dao.json'
+import idl from '../idl/solana_quadratic_voting_dao.json'
 
 export function useAnchorProgram() {
   const { connection } = useConnection()
